@@ -33,8 +33,7 @@ jobs:
     - name: Build React App
       run: yarn build
       
-    - name: install axios
-      run: npm install axios
+    
       
     - name: install chart
       run: npm install chart-reactjs-2
@@ -49,7 +48,8 @@ jobs:
     - name: install chart
       run: npm install chart-js
       
-           
+    - name: install axios
+      run: npm install axios
       
     # Install Surge
     - name: Install Surge
